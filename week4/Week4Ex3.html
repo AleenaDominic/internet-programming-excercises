@@ -1,0 +1,17 @@
+<html>
+    <title>
+        My html page
+    </title>
+    <body>
+        <h1 id="Page heading">
+            First heading
+        </h1>
+        <script>
+            function myFunction() {
+                var element=document.getElementById("Page heading");
+                element.firstChild.nodeValue='New heading';
+            }
+            document.addEventListener('DOMContentLoaded', myFunction);
+        </script>
+    </body>
+</html>

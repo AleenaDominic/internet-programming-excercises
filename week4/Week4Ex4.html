@@ -1,0 +1,21 @@
+<html>
+    <title>
+        My html page
+    </title>
+    <body>
+        <h1 id="Page heading">
+            First heading
+        </h1>
+        <p id="paragraph1">This is my first paragraph</p>
+        <script>
+            function myFunction() {
+                var element=document.getElementById("Page heading");
+                element.firstChild.nodeValue='New heading';
+
+                var element1=document.getElementById("paragraph1");
+                element1.firstChild.nodeValue='Hello This is a paragraph which is changed.';
+            }
+            document.addEventListener('DOMContentLoaded', myFunction);
+        </script>
+    </body>
+</html>

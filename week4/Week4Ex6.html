@@ -1,0 +1,18 @@
+<html>
+    <h2>Forms example</h2>
+    <body>
+        <input type="button" id="btnId" value="click me"/>
+        <input type="text" id="txtId" value="hello" />
+        <script>
+            function ButtonClick(){
+                var element=document.getElementById('txtId');
+                alert(element.value);
+            }
+            function loadFunction(){
+                var element=document.getElementById("btnId");
+                element.addEventListener('click', ButtonClick);
+            }
+            document.addEventListener('DOMContentLoaded', loadFunction);
+        </script>
+    </body>
+</html>

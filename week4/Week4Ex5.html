@@ -1,0 +1,33 @@
+<html>
+    <title>
+        My html page
+    </title>
+    <body>
+        <h1 id="Page heading">
+            First heading
+        </h1>
+        <p id="paragraph1">This is my first paragraph</p>
+        <script>
+            function UpdateHeading() {
+                var element=document.getElementById("Page heading");
+                element.firstChild.nodeValue='New heading';
+
+               
+            }
+            function UpdateParagraph{
+                var element1=document.getElementById("paragraph1");
+                element1.firstChild.nodeValue='This my paragraph which is changed';
+                
+            }
+            function myFunctionClick() {
+                var element=document.getElementById("Page heading");
+                element.addEventListener('click', UpdateHeading);
+
+                var element1=document.getElementById("paragraph1");
+                element1.addEventListener('click', UpdateParagraph);
+            }
+            document.addEventListener('DOMContentLoaded', myFunctionClick);
+    
+        </script>
+    </body>
+</html>
