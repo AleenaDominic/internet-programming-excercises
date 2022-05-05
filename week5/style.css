@@ -1,0 +1,35 @@
+body {
+	margin: 0; 
+	padding: 0; 
+	background-image: url(background.jpg); 
+	font-family: calibri, helvetica, sans-serif;
+}
+
+#circle {
+	border-radius: 100%; 
+	width: 200px; 
+	height: 200px; 
+	background-color: red;  
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	font-size: 2em; 
+	cursor: pointer; 
+	text-align: center; 
+	line-height: 200px; 
+	box-shadow: 5px 5px 5px #333; 
+	text-shadow: 2px 2px 0px #000; 
+	color: #fff;
+	opacity: 20%;
+}
+
+
+.transparent {opacity: 0.5;}
+
+#paragraph {
+	background-color: green;
+	border-radius: 50px;
+	font-family: Verdana, Helvetica, Sans-serif;
+	height: 50px;
+
+}
