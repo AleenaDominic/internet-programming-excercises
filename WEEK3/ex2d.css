@@ -1,0 +1,35 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+.header {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    }
+.nav {
+    background-color: yellow;
+    padding: 30px;
+
+    }
+.main {
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    float: left;
+
+    }
+.aside {
+    background-color: lightgreen;
+    float: left;
+    padding: 5px;
+
+    }
+.footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+
+    }

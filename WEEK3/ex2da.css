@@ -1,0 +1,63 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+.header {
+    background-color: rgb(255, 0, 212);
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 3px solid #666;
+    }
+.nav {
+    background-color: rgb(0, 225, 255);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(161, 18, 18);
+    }
+.main {
+    background-color: rgb(139, 90, 0);
+    color: white;
+    padding: 30px;
+    float: left;
+
+    }
+.aside {
+    background-color: rgb(238, 171, 144);
+    float: left;
+    padding: 30px;
+
+    }
+.footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(9, 10, 9);
+    }
