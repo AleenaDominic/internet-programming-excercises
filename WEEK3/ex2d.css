@@ -1,15 +1,15 @@
-.graticule
+.grid
 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
 }
-.headline {
+.header {
     background-color: blue;
     color: white;
     padding: 30px;
     }
-.navig {
+.nav {
     background-color: yellow;
     padding: 30px;
 
@@ -21,7 +21,7 @@
     float: left;
 
     }
-.alongside {
+.aside {
     background-color: lightgreen;
     float: left;
     padding: 5px;

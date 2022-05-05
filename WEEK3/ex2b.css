@@ -1,4 +1,4 @@
-.grid
+.m_grid
 {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -9,7 +9,7 @@
     color: white;
     padding: 30px;
     }
-.nav {
+.m_nav {
     background-color: yellow;
     padding: 10px;
 
@@ -23,7 +23,7 @@
     background-color: lightgreen;
  
     }
-.footer {
+.m_footer {
     background-color: darkgreen;
     color: white;
    
